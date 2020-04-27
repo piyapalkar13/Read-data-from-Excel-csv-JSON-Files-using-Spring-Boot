@@ -8,6 +8,7 @@ public class SpringFilesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringFilesApplication.class, args);
+		System.out.println("success");
 	}
 
 }
