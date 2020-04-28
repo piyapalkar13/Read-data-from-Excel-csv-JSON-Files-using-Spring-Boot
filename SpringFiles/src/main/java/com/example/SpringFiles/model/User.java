@@ -28,9 +28,8 @@ public class User {
 		// TODO Auto-generated constructor stub
 	}
 
-	public User(Long id, String fname, String lname, String email, String phno, String fileType) {
+	public User(String fname, String lname, String email, String phno, String fileType) {
 		super();
-		this.id = id;
 		this.fname = fname;
 		this.lname = lname;
 		this.email = email;
